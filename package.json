@@ -1,0 +1,23 @@
+{
+  "name": "simple-js",
+  "version": "1.0.0",
+  "description": "Simple JS app that will use Crafter CMS Javascript SDK",
+  "main": "index.js",
+  "author": "Russ",
+  "license": "MIT",
+  "dependencies": {
+    "@craftercms/classes": "^1.0.0",
+    "@craftercms/content": "^1.0.0",
+    "@craftercms/models": "^1.0.0",
+    "@craftercms/search": "^1.0.0",
+    "@craftercms/utils": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
